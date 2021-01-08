@@ -6,10 +6,6 @@ namespace GetNextElementInList
 {
     class NextElementInList
     {
-        // Написать класс Cycler, принимающий список объектов при создании.
-        // У него должна быть функция, которая возвращает следующий объект из этого списка по порядку.
-        // Если мы достигли последнего элемента и ещё раз вызвали эту функцию, то должны вернуться в начало и снова пойти по кругу.
-
         private static string ReadOnlyNumbers()
         {
             StringBuilder input = new StringBuilder();
@@ -44,7 +40,7 @@ namespace GetNextElementInList
             {
                 repeats = 0;
                 Console.Clear();
-                Console.WriteLine("Пограмма, которая подсчитывает количество повторений каждого числа, встреченного в заданной строке.");
+                Console.WriteLine("Пограмма, которая возвращает следующий объект из этого списка по порядку.");
                 Console.WriteLine("Введите несколько строк в список или \"q\" для выхода.");
                 Console.WriteLine("\"r\" закончить заполнение списка.");
                 Console.WriteLine("\"c\" очистить список.");
