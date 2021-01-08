@@ -1,7 +1,6 @@
-﻿using System;
+using System;
 using System.Text;
 using System.Collections.Generic;
-using TestQuest;
 
 namespace GetNextElementInList
 {
